@@ -24,7 +24,7 @@ public class Main {
             img.addImage();
             img.addImage();
             ConvertCmd convert = new ConvertCmd();
-            convert.setSearchPath("imagemagic");
+            convert.setSearchPath("ImageMagick-7.0.10/bin");
             convert.run(img, input, output);
 
 
